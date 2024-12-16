@@ -306,6 +306,11 @@ li a:hover {
     margin-top: 80px;
 }
 
+.price-plans-individual {
+    border: 1px solid black;
+    padding: 28px;
+}
+
 .price-plans-individual h1 {
     font-size: 28px;
 }
@@ -318,6 +323,7 @@ li a:hover {
 
 .price-month-ct {
     display: flex;
+    margin-top: 24px;
 }
 
 .price-month-ct h1 {
@@ -336,10 +342,158 @@ li a:hover {
     color: #fff;
     padding: 10px 78px;
     border-radius: 28px;
+    border: none;
+}
+
+.price-plans-individual button:hover {
+    background: gold;
+    color: black;
+    border: none;
 }
 
 .plan-outline-ct {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 124px;
+}
+
+.plan-outline-gd {
+    margin-top: 20px;
+}
+
+.plan-outline-gd p {
+    padding-top: 12px;
+    font-size: 18px;
+}
+
+.end-para p {
+    font-size: 19px;
+    text-align: center;
+    max-width: 700px;
+    margin-top: 60px;
+}
+
+.banner-st {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url("women\ wk\ img.png");
+    background-position: center;
+    background-size: cover;
+    margin-top: 180px;
+}
+
+.banner-ct {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.banner-cont {
+    border: 1px solid #fff;
+    padding: 48px 80px 48px 48px;
+}
+
+.banner-cont h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.banner-cont p {
+    color: #fff;
+    font-size: 19px;
+    margin: 20px 0;
+    max-width: 500px;
+}
+
+.banner-cont button {
+    background: gold;
+    color: black;
+    padding: 12px 36px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 24px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.footer-ct {
+    background: black;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-cont-ct {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-main-ct h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.footer-main-ct h5 {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.footer-main-ct p {
+    margin-top: 30px;
+    font-size: 18px;
+    max-width: 400px;
+    color: #fff;
+}
+
+.footer-contact-ct h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.footer-contact-ct p {
+    margin: 12px 0;
+    font-size: 18px;
+    max-width: 340px;
+    color: #fff;
+}
+
+.footer-social-links {
+    margin-top: 20px;
+}
+
+.footer-social-links i {
+    margin-right: 10px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    color: black;
+}
+
+.footer-sub-ct {
+    margin-top: 30px;
+}
+
+.footer-sub-ct input {
+    background: grey;
+    border: none;
+    color: silver;
+    padding: 14px 60px 6px 6px;
+    border-radius: 16px 0 0 16px;
+}
+
+.footer-sub-ct button {
+    background: gold;
+    color: black;
+    border: none;
+    padding: 8px 14px;
+    font-size: 15px;
 }
