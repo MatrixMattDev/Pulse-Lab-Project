@@ -158,12 +158,16 @@ li a:hover {
     margin-top: 36px;
 }
 
+.quick-start {
+    height: 1100px;
+}
+
 .quick-start-ct {
-    height: 1600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 120px;
 }
 
 .quick-start-hd {
@@ -239,7 +243,7 @@ li a:hover {
 }
 
 .people-sy-cont p {
-    font-size: 30px;
+    font-size: 33px;
     max-width: 650px;
 }
 
@@ -276,6 +280,7 @@ li a:hover {
     justify-content: space-evenly;
     align-items: center;
     height: 900px;
+    margin-top: 150px;
 }
 
 .pricing-head-ct {
@@ -425,15 +430,17 @@ li a:hover {
     background: black;
     height: 500px;
     width: 100%;
+}
+
+.footer-cont-ct {
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.footer-cont-ct {
-    height: 400px;
-    display: flex;
-    justify-content: center;
+.footer-main-ct {
+    margin-right: 90px;
 }
 
 .footer-main-ct h1 {
@@ -450,7 +457,7 @@ li a:hover {
 .footer-main-ct p {
     margin-top: 30px;
     font-size: 18px;
-    max-width: 400px;
+    max-width: 680px;
     color: #fff;
 }
 
@@ -462,7 +469,7 @@ li a:hover {
 .footer-contact-ct p {
     margin: 12px 0;
     font-size: 18px;
-    max-width: 340px;
+    max-width: 540px;
     color: #fff;
 }
 
@@ -473,9 +480,14 @@ li a:hover {
 .footer-social-links i {
     margin-right: 10px;
     background: #fff;
-    padding: 5px;
+    padding: 6px;
     border-radius: 50%;
     color: black;
+    cursor: pointer;
+}
+
+.footer-social-links i:hover {
+    transform: scale(1.1);
 }
 
 .footer-sub-ct {
@@ -486,14 +498,25 @@ li a:hover {
     background: grey;
     border: none;
     color: silver;
-    padding: 14px 60px 6px 6px;
-    border-radius: 16px 0 0 16px;
+    padding: 14px 60px 12px 6px;
+    border-radius: 16px 0 0 20px;
+    cursor: pointer;
+    outline: none;
 }
 
 .footer-sub-ct button {
     background: gold;
     color: black;
     border: none;
-    padding: 8px 14px;
-    font-size: 15px;
+    padding: 13px 20px 12px 14px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0 20px 16px 0;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: #fff;
+    padding: 0 0 4px 12px;
+    font-size: 14px;
 }
