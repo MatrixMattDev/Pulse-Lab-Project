@@ -520,3 +520,345 @@ input::placeholder {
     padding: 0 0 4px 12px;
     font-size: 14px;
 }
+
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+
+@media(max-width: 768px) {
+    nav {
+        padding: 16px 40px;
+    }
+
+    .logo-img {
+        width: 80px;
+        height: 90px;
+        transform: translateY(-14px);
+    }
+
+    .header-cont p {
+        font-size: 19px;
+        margin: 28px 0;
+    }
+
+    .about-us-hd h4 {
+        font-size: 19px;
+    }
+
+    .about-us-hd p {
+        font-size: 21px;
+    }
+
+    .about-us-feat {
+        grid-gap: 40px;
+        text-align: left;
+    }
+
+    .about-feat-ct {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-feat-ct h1 {
+        margin-left: 50px;
+    }
+
+    .about-feat-ct p {
+        max-width: 120px;
+    }
+
+    .as-seen-ct {
+        height: 300px;
+    }
+
+    .as-seen-ct h3 {
+        font-size: 19px;
+    }
+
+    .as-seen-feat {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .quick-start-hd h2 {
+        font-size: 18px;
+    }
+
+    .quick-start-hd p  {
+        text-align: center;
+        max-width: 700px;
+    }
+
+    .quick-step-info p {
+        max-width: 155px;
+    }
+
+    .quick-step-ct {
+        max-width: 700px;
+        grid-gap: 60px 40px;
+    }
+
+    .people-sy-ct  {
+        margin-top: 300px;
+    }
+
+    .people-sy-ct h4 {
+        transform: translate(2px,-90px);
+        font-size: 17px;
+        max-width: 150px;
+    }
+
+    .people-sy-cont p {
+        max-width: 550px;
+    }
+
+    .price-plans-individual p {
+        max-width: 160px;
+    }
+
+    .price-plans-ct {
+        grid-gap: 30px;
+        max-width: 700px;
+    }
+
+    .price-plans-individual h1 {
+        max-width: 130px;
+    }
+
+    .price-plans-individual button {
+        padding: 10px 40px;
+        font-size: 20px;
+        border-radius: 36px;
+    }
+
+    .price-month-ct {
+        max-width: 120px;
+    }
+
+    .price-month-ct p {
+        font-size: 18px;
+    }
+
+    .price-month-ct h1 {
+        font-size: 36px;
+    }
+
+    .plan-outline-ct {
+        max-width: 600px;
+    }
+
+    .banner-ct {
+        margin-top: 560px;
+    }
+
+    .banner-cont {
+        padding: 40px 130px 40px 40px;
+    }
+
+    .banner-cont p {
+        font-size: 20px;
+        letter-spacing: .5px;
+    }
+
+    .banner-cont button {
+        font-size: 19px;
+    }
+
+    .footer-ct {
+        height: 550px;
+    }
+
+    .footer-cont-ct {
+        padding: 0 24px;
+    }
+
+    .footer-sub-ct input {
+        padding: 14px 4px 12px 4px;
+    }
+
+    .footer-sub-ct button {
+        padding: 13px 6px 12px 14px;
+    }
+
+}
+
+
+/* SMALL PHONES */ 
+
+@media(max-width: 550px) {
+
+    header {
+        width: 100%;
+    }
+
+    ul li {
+            display: none;
+        }
+
+    .header-cont h1 {
+        font-size: 70px;
+        max-width: 400px;
+    }
+
+    .header-cont p  {
+        max-width: 400px;
+    }
+
+    .about-us-hd h1 {
+        max-width: 500px;
+    }
+
+    .about-us-hd p {
+        font-size: 19px;
+        max-width: 400px;
+        margin-left: 50px;
+    }
+
+    .about-us-cont {
+        height: 1220px;
+    }
+
+    .about-us-feat {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 10px;
+    }
+
+    .about-feat-ct p {
+        max-width: 360px;
+        font-size: 20px;
+    }
+
+    .about-feat-ct h1 {
+        margin-left: 0px;
+        margin-right: 80px;
+    }
+
+    .as-seen-ct {
+        height: 370px;
+    }
+
+    .as-seen-feat {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .quick-start {
+        height: 1950px;
+    }
+
+    .quick-step-ct  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quick-step-info p {
+        max-width: 350px;
+    }
+
+    .quick-step-info h1  {
+        font-size: 32px;
+        max-width: 700px;
+    }
+
+    .quick-start-hd p {
+        max-width: 420px;
+        margin-left: 16px;
+    }
+
+    .people-sy-ct {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 560px;
+    }
+
+    .people-sy-cont p {
+        max-width: 370px;
+    }
+
+    .people-sy-ct h4 {
+        transform: translate(-108px, -30px);
+        max-width: 200px;
+    }
+
+    .pricing-ct {
+        height: 1300px;
+    }
+
+    .price-plans-ct {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 190px;
+    }
+
+    .pricing-head-ct p {
+        max-width: 430px;
+    }
+
+    .price-plans-individual p {
+        max-width: 370px;
+        font-size: 17px;
+    }
+
+    .price-month-ct p {
+        max-width: 600px;
+    }
+
+    .plan-outline-ct {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .outline-feat-1 {
+        transform: translateY(-1070px);
+    }
+
+    .outline-feat-2 {
+        transform: translateY(-770px);
+    }
+
+    .outline-feat-3 {
+        transform: translateY(-530px);
+    }
+
+    .end-para p {
+        transform: translateY(-540px);
+        max-width: 500px;
+    }
+
+    .banner-ct {
+        margin-top: 800px;
+    }
+
+    .banner-cont {
+        padding: 40px 130px 40px 40px;
+        width: 480px;
+    }
+
+    .banner-cont h1 {
+        font-size: 45px;
+    }
+
+    .footer-cont-ct {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 680px;
+    }
+
+    .footer-ct {
+        height: 700px;
+    }
+
+    .footer-main-ct h5 {
+        font-size: 16px;
+    }
+
+    .footer-sub-ct input {
+        padding: 14px 200px 12px 4px;
+    }
+
+    .footer-sub-ct button {
+        padding: 13px 12px 12px 14px;
+    }
+}
