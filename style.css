@@ -683,7 +683,7 @@ input::placeholder {
 
 /* SMALL PHONES */ 
 
-@media(max-width: 550px) {
+@media(max-width: 480px) {
 
     header {
         width: 100%;
@@ -855,7 +855,7 @@ input::placeholder {
     }
 
     .footer-sub-ct input {
-        padding: 14px 200px 12px 4px;
+        padding: 14px 120px 12px 4px;
     }
 
     .footer-sub-ct button {
