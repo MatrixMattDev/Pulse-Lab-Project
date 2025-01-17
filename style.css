@@ -30,7 +30,7 @@ nav {
 .logo-img {
     object-fit: cover;
     width: 120px;
-    height: 80px;
+    max-height: 80px;
 }
 
 ul {
@@ -681,7 +681,7 @@ input::placeholder {
 }
 
 
-/* SMALL PHONES */ 
+/* SMALL PHONES */
 
 @media(max-width: 480px) {
 
